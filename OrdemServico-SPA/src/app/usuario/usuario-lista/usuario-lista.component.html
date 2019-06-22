@@ -1,0 +1,48 @@
+<div class="container mt-2">
+  <div class="row">
+
+    <h2>Usuarios</h2>
+    
+    
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr class="info">
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Cargo
+                </th>
+                <th>
+                    Departamento
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr *ngFor="let usuario of usuarios">
+                    <td>
+                       {{usuario.nome}}
+                    </td>
+                    <td>
+                        {{usuario.departamentoDescricao}}
+                    </td>
+                    <td>
+                      {{usuario.cargo}}
+                    </td>
+                    <td>
+                        <div class="btn-group align-item-center">
+                        <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@item.Id">
+                            <span><i class="glyphicon glyphicon-pencil"></i></span> Edit</a>
+                        <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">
+                            <span><i class="glyphicon glyphicon-search"></i></span> Details</a>
+                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">
+                            <span><i class="glyphicon glyphicon-trash"></i></span> Delete</a>
+    
+                        </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+  </div>
+</div>

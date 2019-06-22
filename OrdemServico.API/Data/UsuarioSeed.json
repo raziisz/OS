@@ -1,0 +1,300 @@
+[
+    {
+        "Login": "Felipe",
+        "Senha": "password",
+        "Nome": "Luiz Felipe Carvalho Libertino",
+        "Departamento": {
+            "Descricao": "Programação"
+        },
+        "Cargo": "Desenvolvedor Jr",
+        "Servicos": [
+            {
+                "Descricao": "Desenvolver metodo x para sistema",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Desenvolver metodo y para sistema",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "Adriel",
+        "Senha": "password",
+        "Nome": "Adriel Vinicius",
+        "Departamento": {
+            "Descricao": "TI"
+        },
+        "Cargo": "Suporte TI",
+        "Servicos": [
+            {
+                "Descricao": "Formatação da maquina x",
+                "TipoOrdem": "TI",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Formatação da maquina y",
+                "TipoOrdem": "TI",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "Aldemir",
+        "Senha": "password",
+        "Nome": "Aldemir Carvalho",
+        "Departamento": {
+            "Descricao": "Manutenção"
+        },
+        "Cargo": "Tecnico de Refrigeração",
+        "Servicos": [
+            {
+                "Descricao": "Consertar ar-condicionado",
+                "TipoOrdem": "Manutenção",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Consetar refrigerador",
+                "TipoOrdem": "Manutenção",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "TioJair",
+        "Senha": "password",
+        "Nome": "Jair Siclano",
+        "Departamento": {
+            "Descricao": "Serviços"
+        },
+        "Cargo": "Serviços Gerais",
+        "Servicos": [
+            {
+                "Descricao": "Limpeza do patio externo",
+                "TipoOrdem": "Serviço",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Limpeza da sala x",
+                "TipoOrdem": "Serviço",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "TioCleiton",
+        "Senha": "password",
+        "Nome": "Cleiton Fulano",
+        "DepartamentoId": 4,
+        "Cargo": "Serviços Gerais",
+        "Servicos": [
+            {
+                "Descricao": "Limpeza do patio interno",
+                "TipoOrdem": "Serviço",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Limpeza da sala ",
+                "TipoOrdem": "Serviço",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "Marcio",
+        "Senha": "password",
+        "Nome": "Marcio Araujo",
+        "DepartamentoId": 3,
+        "Cargo": "Suporte de TI Jr.",
+        "Servicos": [
+            {
+                "Descricao": "Consertar pc r",
+                "TipoOrdem": "TI",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Helpdesk para usuario x ",
+                "TipoOrdem": "TI",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "Fracisco",
+        "Senha": "password",
+        "Nome": "Francisco Marcelo",
+        "DepartamentoId": 3,
+        "Cargo": "Analista de Redes",
+        "Servicos": [
+            {
+                "Descricao": "Montar Mapa de Rede de Computadores",
+                "TipoOrdem": "TI",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Checar queda de pacotes da Rede",
+                "TipoOrdem": "TI",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "Amarildo",
+        "Senha": "password",
+        "Nome": "Amarildo Jr.",
+        "DepartamentoId": 2,
+        "Cargo": "Eletricista",
+        "Servicos": [
+            {
+                "Descricao": "Ver afiação setor x",
+                "TipoOrdem": "Manutenção",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Instalar afiação setor y ",
+                "TipoOrdem": "Manutenção",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "Kratos",
+        "Senha": "password",
+        "Nome": "Kratos da Silva",
+        "DepartamentoId": 2,
+        "Cargo": "Tecnico em refrigeração",
+        "Servicos": [
+            {
+                "Descricao": "instalar ar-condicionado x",
+                "TipoOrdem": "Manutenção",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "suporte ar-condicionado y",
+                "TipoOrdem": "Manutenção",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "zeus",
+        "Senha": "password",
+        "Nome": "Zeus Olimpicos",
+        "DepartamentoId": 1,
+        "Cargo": "Analista de Sistemas",
+        "Servicos": [
+            {
+                "Descricao": "Requisitos do sistema y",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Verificação do sistema z",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "odin",
+        "Senha": "password",
+        "Nome": "Odin Valhala",
+        "DepartamentoId": 1,
+        "Cargo": "Analista de Sistemas Pleno",
+        "Servicos": [
+            {
+                "Descricao": "Requisitos do sistema a",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Verificação do sistema b",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    },
+    {
+        "Login": "thor",
+        "Senha": "password",
+        "Nome": "Thor Zeira",
+        "DepartamentoId": 1,
+        "Cargo": "Analista de Sistemas Jr",
+        "Servicos": [
+            {
+                "Descricao": "Requisitos do sistema c",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-02",
+                "DataFinalizada": "2019-06-03"
+            },
+            {
+                "Descricao": "Verificação do sistema d",
+                "TipoOrdem": "Programação",
+                "Status": 3,
+                "DataRegistro": "2019-06-04",
+                "DataFinalizada": "2019-06-05"
+            }
+        ]
+        
+    }
+    
+    
+]

@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <div *ngIf="!loggedIn()" style="text-align: center">
+    <h1>Bem vindo ao Sistema Ordem de Serviços</h1>
+    <p class="lead">Tenha acesso a todos aos seus serviços já solicitados</p>
+    <div class="text-center">
+      <button class="btn btn-info btn-lg">Ler mais</button>
+    </div>
+  </div>
+
+  <div *ngIf="loggedIn()" style="text-align: center">
+    <h1>Bem vindo ao Sistema Ordem de Serviços {{authService.decodedToken?.unique_name | titlecase}}</h1>
+    <p class="lead">Tenha acesso a todos aos seus serviços já solicitados</p>
+    <div class="text-center">
+      <button class="btn btn-info btn-lg">Criar Ordem Serviço</button>
+      <button class="btn btn-info btn-lg">Ler mais</button>
+    </div>
+  </div>
+</div>

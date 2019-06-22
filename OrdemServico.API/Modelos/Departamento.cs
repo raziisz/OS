@@ -7,7 +7,7 @@ namespace OrdemServico.API.Modelos
         public int Id { get; set; }
         public string Descricao { get; set; }
 
-        public ICollection<Usuario> Usuario { get; set; }
+        public ICollection<Usuario> Usuarios { get; set; }
 
         public Departamento()
         {
